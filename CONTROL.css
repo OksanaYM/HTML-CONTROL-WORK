@@ -1,0 +1,418 @@
+
+header{
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    height: 86px;
+    width: 100%;
+    position: fixed;
+    margin: 0 auto 0 auto;
+}
+.page{
+    width: 1252px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+}
+.logotype{
+    width: 194px;
+    height: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 26px 0 15px 0;
+}
+header h3{
+    color: #001858;
+    font-size: 36px;
+    font-weight: 600;
+}
+header h5{
+    width: 48px;
+    height: 27px;
+    color: #6246EA;
+    font-size: 18px;
+    font-weight: 700;
+}
+.menu{
+    margin: 22px 0 20px 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.menu ul{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.menu ul li span{
+    margin-right: 10px;
+}
+
+.menu ul li a{
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.menu button {
+    display: flex;
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/*-------------------------MAIN---------------------------------------------------------------*/
+main{
+    background: #EFF0F3;
+    height: 900px;
+}
+.page-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 271px;
+}
+main h1{
+    width: 617px;
+    color: #2B2C34;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+main p{
+    border-left: 3px solid #2B2C34;
+    height: 56px;
+    width: 667px;
+    color: #9A9494;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 12px;
+}
+.form{
+    display: flex;
+    gap: 20px;
+    height: 67px;
+}
+form input{
+    width: 444px;
+    display: flex;
+    align-items: center;
+    padding: 21px 200px 21px 25px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    border: none;
+    gap: 10px;
+}
+.form input[type="email"]::placeholder{
+    color: #C0C0C0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.form input[type="email"]{
+    font-size: 20px;
+}
+.form input[type="email"]:focus{
+    outline: none;
+}
+.form button{
+    display: flex;
+    width: 145px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    gap: 10px;
+}
+.img-1{
+    margin-top: 250px;
+    display: flex;
+    width: 470px;
+    height: 387px;
+    justify-content: center;
+    align-items: center;
+}
+/*-------------------------SECTION-CATEGORY-------------------------------------*/
+
+.category{
+    height: 500px;
+    background: #EFF0F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .main-category {
+    width: 1252px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /*margin: 68px auto 67px auto;*/
+    margin: 0 auto 0 auto;
+}
+
+.category .browse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.category .browse h4{
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.img-2 h5{
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.img-2{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.category .cards{
+    display: flex;
+    gap: 37px;
+}
+.category .card-emblem{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+}
+.category .card-emblem:hover{
+    background: #6246EA;
+    transition: 0.5s;
+}
+.category .emblem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 7px;
+    background: #FFFFFE;
+    margin: 65px 130px 30px 30px;
+}
+.category .card-emblem p{
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+/*---------------------------SECTION-MAIN-ARTICLES--------------------------*/
+.main-articles{
+    background: #FFFFFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.articles-4-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px auto 80px auto;
+    width: 1252px;
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    height: 490px;
+    gap: 30px;
+}
+.link{
+    height: 35px;
+    width: 1252px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-articles .link h4{
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.main-articles .card{
+    display: flex;
+    gap: 16px;
+}
+.main-articles .card article{
+    height: 425px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    padding: 20px;
+    transition: 1s;
+}
+article:hover{
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    transition: 1s;
+}
+.title-article{
+    display: flex;
+    align-items: flex-start;
+    height: 130px;
+}
+article h5{
+    width: 260px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+article .author{
+    display: flex;
+    gap: 15px;
+}
+article .blog h6{
+    color: #2B2C34;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+article .blog p{
+    color: #2B2C34;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/*-------------------------------FOOTER-UPDATES-----------------------*/
+.updates{
+    background: #EFF0F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 58px auto 58px auto;
+}
+.img-3{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #FFFFFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe-form h3{
+    color: #2B2C34;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.subscribe-form p{
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0 30px 0;
+
+}
+/*---------------------FOOTER---------------------------------------------*/
+.footer{
+    background: #E4E5E9;
+    display: flex;
+    justify-content: center;
+}
+.information{
+    margin: 70px auto 26px auto;
+    width: 1250px;
+}
+.information p{
+    color: #2B2C34;
+    font-size: 14px;
+    font-weight: 400;
+}
+.contact{
+    border-bottom: 1px solid #C0C0C0;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 160px;
+    margin-bottom: 26px;
+}
+.footer-logotype{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-blog{
+    width: 195px;
+    height: 45px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 2px;
+}
+.footer-blog h3{
+    color: #001858;
+    font-size: 36px;
+    font-weight: 600;
+}
+.footer-blog h5{
+    color: #6246EA;
+    font-size: 18px;
+    font-weight: 700;
+    width: 47px;
+    height: 27px;
+}
+.img-footer{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    height: 30px;
+}
+.information .footer-logotype p{
+    color: #2B2C34;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer-category{
+    display: flex;
+    gap: 95px;
+}
+.inform-contact h4{
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.inform-contact ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inform-contact li a{
+    color: #2B2C34;
+    font-size: 18px;
+    font-weight: 400;
+}
