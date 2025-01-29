@@ -233,6 +233,19 @@ section .main-category {
     margin: 80px auto 80px auto;
     width: 1252px;
 }
+.articles-4-4 button{
+    display: flex;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
 .articles{
     display: flex;
     flex-direction: column;
