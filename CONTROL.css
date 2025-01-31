@@ -216,6 +216,11 @@ section .main-category {
     font-weight: 700;
     text-transform: capitalize;
     margin-left: 30px;
+    transition: 1s;
+}
+.category .card-emblem p:hover{
+    color: #FFFFFE;
+    transition: 0.5s;
 }
 /*---------------------------SECTION-MAIN-ARTICLES--------------------------*/
 .main-articles{
